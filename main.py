@@ -6,7 +6,7 @@ import datetime
 
 page = PageComparer("http://www.tomakomai-ct.ac.jp/i/urgency/index.php", "index.html")
 
-if page.isChanged() == False: 
+if page.isChanged() == False:
     exit()
 
 page.sync()
