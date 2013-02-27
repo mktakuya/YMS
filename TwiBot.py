@@ -16,4 +16,3 @@ class TwiBot:
         self.body = body
         self.api.status_update(body)
 
-
