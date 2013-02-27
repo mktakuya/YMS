@@ -6,13 +6,10 @@ import datetime
 
 page = PageComparer("http://www.tomakomai-ct.ac.jp/i/urgency/index.php", "index.html")
 
-if page.compare() == True: 
+if page.isChanged() == False: 
     exit()
 
 page.sync()
-
-if page.check() == True:
-    exit()
 
 now = datetime.datetime.now()
 

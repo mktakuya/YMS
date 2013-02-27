@@ -32,6 +32,6 @@ class Mailer:
         self.srv.starttls()
         self.srv.ehlo()
         self.srv.login(self.gmail_account, self.passwd)
-        self.srv.sendmail(self.from_addr, self.to_addrs, self.message.encode("cp932"))
+        self.srv.sendmail(self.from_addr, self.to_addrs, self.message.encode("cp932")) # ガラケー対応のためcp932にしたが、iPhoneで文字化けするらしい…＾p＾
         self.srv.close()
 

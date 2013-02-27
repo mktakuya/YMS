@@ -10,21 +10,17 @@ class PageComparer:
         self.local = open(self.path)
         self.local = BeautifulSoup(self.local.read())
 
-    def compare(self):
+    def isChanged(self):
         if self.new == self.local:
-            return True
-        else:
             return False
+        else:
+            if unicode(str(self.new), "utf-8").find(u"連絡事項はありません") != -1:
+                return False
+            else:
+                return True
 
     def sync(self):
         self.fp = open("index.html", "w")
         self.fp.write(str(self.new))
         self.fp.close()
-    
-    def check(self):
-        self.body = unicode(str(self.new), "utf-8")
-        if unicode(str(self.new), "utf-8").find(u"連絡事項はありません") != -1:
-            return True
-        else:
-            pass
 
