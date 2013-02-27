@@ -2,7 +2,7 @@
 
 ## 嵐闥ﾊり監視システム（よていどおりかんししすてむ）
 
-[http://www.tomakomai-ct.ac.jp/i/urgency/index.php](TmNCTの学生向け連絡ページ)を監視し、更新されたらメールとTwitter:[https://twitter.com/yotedori_bot](@yotedori_bot)）でお知らせするシステム。
+[TmNCTの学生向け連絡ページ](http://www.tomakomai-ct.ac.jp/i/urgency/index.php)を監視し、更新を確認したらメールとTwitter:[yotedori_bot](https://twitter.com/yotedori_bot)でお知らせするシステム。
 
 ```
 YMS
