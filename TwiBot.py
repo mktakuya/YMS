@@ -1,6 +1,7 @@
 # -*- coding:utf-8 -*-
 import twoauth
 from pit import Pit
+
 class TwiBot:
     def __init__(self, user):
         self.user = user
