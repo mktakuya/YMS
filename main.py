@@ -22,6 +22,6 @@ body = now.strftime("%Y/%m/%d %H:%M:%S") + u"\n学生連絡ページの更新を
 mailer.createMessage(u"Y-ALERT（緊急嵐闥ﾊり速報）", body)
 mailer.sendMessage()
 
-y_bot = TwiBot("yotedori_bot")
-y_bot.post(body)
+twibot = TwiBot("yotedori_bot")
+twibot.post(body)
 
