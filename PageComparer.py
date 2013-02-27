@@ -13,11 +13,8 @@ class PageComparer:
     def isChanged(self):
         if self.new == self.local:
             return False
-        else:
-            if unicode(str(self.new), "utf-8").find(u"連絡事項はありません") != -1:
-                return False
-            else:
-                return True
+
+        return False if unicode(str(self.new), "utf-8").find(u"連絡事項はありません") != -1 else True
 
     def sync(self):
         self.fp = open("index.html", "w")
