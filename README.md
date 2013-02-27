@@ -1,8 +1,8 @@
 # YMS - Yotedori Monitoring System
 
-嵐闥ﾊり監視システム
+## 嵐闥ﾊり監視システム（よていどおりかんししすてむ）
 
-TmNCTの学生向け連絡ページ（ http://www.tomakomai-ct.ac.jp/i/urgency/index.php ）を監視し、更新されたらメールとTwitter（@yotedori_bot）でお知らせするシステム。
+[http://www.tomakomai-ct.ac.jp/i/urgency/index.php](TmNCTの学生向け連絡ページ)を監視し、更新されたらメールとTwitter:[https://twitter.com/yotedori_bot](@yotedori_bot)）でお知らせするシステム。
 
 ```
 YMS
