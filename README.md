@@ -8,10 +8,10 @@
 YMS
 ├── Mailer.py       メール通知機能
 ├── PageComparer.py ページを比べる
-├── README
+├── README.md		このファイル
 ├── TwiBot.py       Bot
 ├── YMS.sh          cronで実行する時用の
-├── addr_list.txt
+├── addr_list.txt	送信先メールアドレスのリスト
 ├── index.html      比べる用のページ
 └── main.py         mainプログラム
 ```
